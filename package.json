@@ -9,7 +9,9 @@
     "lint": "next lint",
     "lint:fix": "next lint --fix",
     "format": "prettier --ignore-unknown --write .",
-    "prepare": "husky"
+    "prepare": "husky",
+    "deps:check": "npx npm-check-updates@latest --configFileName .ncurc.json --root --mergeConfig",
+    "deps:update": "npx npm-check-updates@latest --configFileName .ncurc.json -u --root --mergeConfig"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",
