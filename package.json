@@ -1,6 +1,7 @@
 {
   "name": "next-js-boilerplate",
   "version": "0.1.0",
+  "author": "Byunk",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
